@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../index.html">
+    <title>FZ | Portfolio</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">Flora Zhou</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">
+                            <i class="fa-solid fa-house-chimney nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../html/about.html" class="nav__link">
+                            <i class="fa-solid fa-face-smile-beam nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../html/featured-work.html" class="nav__link">
+                            <i class="fa-solid fa-briefcase nav__icon"></i> Featured Work
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../html/photography.html" class="nav__link">
+                            <i class="fa-solid fa-camera-retro nav__icon"></i> Photography
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#contact" class="nav__link">
+                            <i class="fa-solid fa-envelope-circle-check nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header -->
+
+    <!-- Portfolio -->
+    <section class="services section" id="services">
+        <h2 class="section__title">Featured Work</h2>
+
+        <div class="services__container container grid">
+            <!-- Featured Work 1 - Forum -->
+            <div class="services__content">
+                <div>
+                    <img src="../assets/forum.png" alt="" class="proj__imgs">
+                    <h3 class="services__title">Forum Home Appliances</h3>
+                    <p>Project Management, Full Stack Development</p>
+                </div> <br>
+
+                <span class="button button--flex button--small button--link services__button">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right button__icon"></i>
+                </span>
+                <!-- <span class="button button--flex button--small button--link project__button">
+                    See Website<i class="fa-solid fa-arrow-up-right-from-square button__icon"></i> 
+                </span> -->
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h2 class="services__modal-title">Forum Home Appliances</h2>
+                        <h3 class="services__modal-overview">Overview</h3>
+                        <p class="services__modal-desc">Shifted business to omnichannel approach, including
+                            relaunching
+                            the store from BigCommerce POS to Shopify POS.</p> <br>
+                        <i class="fa-solid fa-xmark services__modal-close"></i>
+
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="fa-regular fa-square-check services__modal-icon"></i>
+                                <p class="services__modal-skill">Cleaned up 350,000+ lines of data (including
+                                    product
+                                    data, customer info), ensuring consistency, structure, and ease for future
+                                    internal
+                                    use
+                                </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="fa-regular fa-square-check services__modal-icon"></i>
+                                <p class="services__modal-skill">Ideated redesigned website concept with owners
+                                    to
+                                    ensure industry competitiveness after 18 years using the old platform
+                                </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="fa-regular fa-square-check services__modal-icon"></i>
+                                <p class="services__modal-skill">Maintained site, adding 250+ new products for
+                                    purchase, updating descriptions to improve SEO, and photos to improve
+                                    aesthetics
+                                </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="fa-regular fa-square-check services__modal-icon"></i>
+                                <p class="services__modal-skill">Brainstormed and executed blog posts and
+                                    corresponding
+                                    newsletters to be sent out to 35,000+ subscribers
+                                </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="fa-regular fa-square-check services__modal-icon"></i>
+                                <p class="services__modal-skill">Implemented minor HTML and CSS snippets to
+                                    create
+                                    custom features
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Featured Work 2 - Infinity -->
+            <div class="services__content">
+                <div>
+                    <img src="../assets/infinity.png" alt="" class="proj__imgs">
+                    <h3 class="services__title">Infinity Enterprises</h3>
+                    <p>Project Management, Backend Development, User Experience</p>
+                </div> <br>
+
+                <span class="button button--flex button--small button--link services__button">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right button__icon"></i>
+                </span> <br>
+                <!-- <span class="button button--flex button--small button--link project__button">
+                    See Website<i class="fa-solid fa-arrow-up-right-from-square button__icon"></i> 
+                </span> -->
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h2 class="services__modal-title">Infinity Enterprises</h2>
+                            <h3 class="services__modal-overview">Overview</h3>
+                                <p class="services__modal-desc">Set up a home appliance wholesale site on Shopify as
+                                    a branch of
+                                    company's main store/business model,
+                                    now catering to B2B transactions.
+                                </p> <br>
+                                <i class="fa-solid fa-xmark services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="fa-regular fa-square-check services__modal-icon"></i>
+                                        <p class="services__modal-skill">Conducted market research and created
+                                            mockups
+                                            of site to bring owners' unestablished vision to life
+                                        </p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fa-regular fa-square-check services__modal-icon"></i>
+                                        <p class="services__modal-skill">Curated an organization structure to ensure
+                                            easy browsing for customers, while catering
+                                            to owners' requests regarding specific customer groups
+                                        </p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fa-regular fa-square-check services__modal-icon"></i>
+                                        <p class="services__modal-skill">Implemented a Shopify app to fulfill
+                                            owners' needs of
+                                            restricting certain content from designated
+                                            customer types
+                                        </p>
+                                    </li>
+                                </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Portfolio -->
+
+    <!-- Projects -->
+    <section class="projects section" id="projects">
+        <h2 class="section__title">Projects</h2>
+
+        <!-- Project 2 - MH Graph -->
+        <div class="projects__container grid">
+            <div class="projects__content">
+                <div class="project__photo">
+                    <img src="../assets/mh-graph-alternative.png" alt="" class="proj__img">
+                </div>
+                <div class="project__info">
+                    <h3 class="project__title">Mental Health Graph</h3>
+                    <p class="project__description">As an intro to Python project, I got to choose a dataset from the
+                        Canadian Community Surveys
+                        to extract a chart from.
+                        I was interested in Canada's mental wellness and chose a corresponding CSV to visually
+                        represent the relationship
+                        between certain mental disorders and age.
+                    </p>
+                    <div class="project__btn">
+                        <a href="https://github.com/zhouflora" class="button button--flex" target="_blank">
+                            <i class="fa-brands fa-github button__icon"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div> <br> <br>
+
+        <!-- Project 1 - This Website -->
+        <div class="projects__container grid">
+            <div class="projects__content">
+                <div class="project__photo">
+                    <img src="../assets/website.png" alt="" class="proj__img">
+                </div>
+                <div class="project__info">
+                    <h3 class="project__title">This website!</h3>
+                    <p class="project__description">With HTML, CSS, a little bit of JavaScript (and lots of help from
+                        Stack
+                        Overflow, Google, YouTube, and general persistence), I am so excited to present you with this
+                        beauty (at least I think so)!
+                        <br> <br>
+                        Built with lots of variables, organization, and containers to make updating the site simple.
+                    </p>
+                    <div class="project__btn">
+                        <a href="https://github.com/zhouflora" class="button button--flex" target="_blank">
+                            <i class="fa-brands fa-github button__icon"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container">
+                <div>
+                    <span class="footer__subtitle">2022© <br> With Love, Flora</span>
+
+                    <div class="footer__links">
+                        <a href="https://www.linkedin.com/in/flora-zhou/" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/zhouflora" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:floraazhouu@gmail.com" target="_blank" class="home__social-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+
+                </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- JavaScript Files -->
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/portfolio.js"></script>
+</body>
+
+</html>
